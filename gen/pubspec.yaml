@@ -1,0 +1,13 @@
+name: customer_io_generator
+description: Generates the API client for Customer.io
+version: 1.0.0
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  openapi_generator_annotations: ^3.3.0
+
+dev_dependencies:
+  openapi_generator: ^3.3.0
+  build_runner: any
